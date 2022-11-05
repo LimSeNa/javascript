@@ -7,7 +7,7 @@
   foo();
 
   function Foo() {
-    console.log(this); // Foo()
+    console.log(this); // Foo
   }
-  Foo();
+  new Foo();
 })();
